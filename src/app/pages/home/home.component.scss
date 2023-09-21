@@ -1,0 +1,28 @@
+.home {
+  display: flex;
+  gap: 1rem;
+
+  &__content {
+    h1 {
+      font-size: 2rem;
+      margin: 0.5rem 1rem;
+      background: linear-gradient(180deg, #0a6cce 0%, #35d1e5 100%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    &__projects {
+      display: flex;
+      gap: 2rem;
+      justify-content: left;
+      align-items: baseline;
+      width: 88vw;
+      min-height: 83vh;
+      max-height: 90vh;
+      padding: 1rem;
+      border-radius: 1rem;
+      background-color: #3a465da1;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+<nav class="sidebar">
+  <app-icons
+    imagem="/assets/imgs/home.svg"
+    descricao="Botão home, uma cazinha"
+    link="#"
+  ></app-icons>
+  <div class="sidebar__sidepages">
+    <app-icons
+      *ngFor="let i of pages"
+      imagem="{{ i.img }}"
+      descricao="{{ i.description }}"
+      link="{{ i.link }}"
+    ></app-icons>
+  </div>
+</nav>
