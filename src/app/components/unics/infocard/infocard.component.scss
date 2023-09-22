@@ -1,0 +1,40 @@
+.content {
+  width: max-content;
+  padding: 1rem;
+  margin: 2rem 1rem;
+  border-radius: 1rem 0.5rem 0.5rem 1rem;
+  background-color: #3a465d;
+  max-width: 16rem;
+  max-height: 13rem;
+  overflow: scroll;
+  box-sizing: border-box;
+
+  &::-webkit-scrollbar {
+
+    width: 0.5rem;
+    border-radius: 0 3rem  3rem  0;
+    background: linear-gradient(180deg, #0a6cce 0%, #35d1e5 100%);
+
+    &:horizontal {
+      display: none;
+    }
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 3rem;
+    background-color: #0a6cce;
+  }
+
+  &__title {
+
+    font-style: oblique;
+    color: white;
+
+  }
+
+  &__value {
+    color: #000;
+    word-wrap: break-word;
+    margin: 1rem 0;
+  }
+}

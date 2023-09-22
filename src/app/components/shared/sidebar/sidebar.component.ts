@@ -12,19 +12,19 @@ export class SidebarComponent implements OnInit {
       name: 'Contacts',
       description: 'Button with a schedule',
       img: '/assets/imgs/contacts.svg',
-      link: '#',
+      link: '/contacts',
     },
     {
       name: 'Charts',
       description: 'Button with a chart',
       img: '/assets/imgs/charts.svg',
-      link: '#',
+      link: '/charts',
     },
     {
       name: 'Calendar',
       description: 'Button with a calendar',
       img: '/assets/imgs/calendar.svg',
-      link: '#',
+      link: '/calendar',
     },
   ];
 
